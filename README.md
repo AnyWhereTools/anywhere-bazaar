@@ -56,7 +56,7 @@ Client endpoint: [raw catalog.json](https://raw.githubusercontent.com/appdev/any
 
 The example above is illustrative; use the generated file for real entries. Types are any combination of `finder` (context-menu actions), `tool` (launcher/UI actions) and `workflow` (declared workflows). `description` and `author` may be null. `revision` is a full Git commit, not an archive hash. Entries are sorted by ID and unchanged inputs produce identical output.
 
-A future catalog consumer should reject unsupported catalog schemas, install the recorded revision and revalidate its manifest/resources before source review. **The current AnyWhere app still discovers GitHub's `anywhere-pack` topic; switching its discovery and installer to this catalog is separate client work.** The seed package already works with the existing GitHub import using `appdev/anywhere-tool-chain-demo`.
+AnyWhere's Plugin Marketplace reads this catalog, rejects unsupported schemas and duplicate identities/sources, and installs the recorded full commit after verifying checkout and manifest. Source review and default-disabled installation still apply. Updates retain the selected catalog revision through diff review. Existing HTTPS GitHub installations match by canonical repository without replacing their keys or user data; subsequent catalog updates persist the registry identity. Removed or remapped bound entries report an error instead of following repository HEAD. Manual Git/local imports remain available; GitHub topics no longer determine in-app listings. Catalog fetch failures are visible and retryable. Use a current AnyWhere build containing the Bazaar client integration.
 
 ## Run validation
 
