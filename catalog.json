@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "appdev.tool-chain-demo",
+      "repository": "https://github.com/appdev/anywhere-tool-chain-demo",
+      "revision": "715e45947b923b400190de5b676ed7244db18824",
+      "name": "接口响应工具链",
+      "description": "A 提取 JSON → B 选择数据节点 → C 生成 TypeScript；三个工具可独立使用，也可串联。",
+      "author": "AnyWhere",
+      "icon": "point.3.connected.trianglepath.dotted",
+      "manifestSchemaVersion": 4,
+      "types": [
+        "tool",
+        "workflow"
+      ]
+    }
+  ]
+}
