@@ -107,7 +107,7 @@ def metadata(manifest, tree):
         require(menu or launcher is not None, "Action needs a context menu or launcher entry")
         capabilities = action.get("capabilities", [])
         require(isinstance(capabilities, list) and all(
-            isinstance(c, str) and c in {"clipboard.write", "task.run"} for c in capabilities),
+            isinstance(c, str) and c in {"clipboard.write", "task.run", "documents", "launcher.entries", "notifications"} for c in capabilities),
             "Unsupported capability")
         require(schema == 4 or (ui is None and launcher is None and menu and not capabilities),
                 "Tool fields require schemaVersion 4")
