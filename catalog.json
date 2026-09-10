@@ -30,9 +30,9 @@
     {
       "id": "appdev.todo",
       "repository": "https://github.com/AnyWhereTools/anywhere-todo",
-      "revision": "eda8224d7aed7ee73380d519f8e3fd89ad8b8571",
+      "revision": "b58593395fb22a8f25b8f365f0018c2028b2a569",
       "name": "待办 Todo",
-      "description": "待办、备注、优先级与系统提醒；关闭面板后仍可收到已登记通知。",
+      "description": "快速录入、清单分类、截止日期与系统提醒；用今天、未来 7 天和完成记录整理每一天。",
       "author": "AnyWhere",
       "icon": "checklist",
       "manifestSchemaVersion": 4,
