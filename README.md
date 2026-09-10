@@ -1,18 +1,18 @@
 # AnyWhere Bazaar
 
-[简体中文](README.zh.md) · [AnyWhere](https://github.com/appdev/AnyWhere) · [Catalog](catalog.json)
+[简体中文](README.zh.md) · [AnyWhere](https://github.com/AnyWhereTools/AnyWhere) · [Catalog](catalog.json)
 
 The community registry for AnyWhere extension packs. Authors keep their code and `manifest.json` in their own public GitHub repositories. This repository stores one small JSON registration per pack and generates a static catalog. Finder actions, tools with panels and workflows all use the existing extension-pack format.
 
 ## Register a package
 
-1. Publish a public GitHub repository with a root `manifest.json`, its resources, a license and usage instructions. Test it in AnyWhere. See the [pack author guide](https://github.com/appdev/AnyWhere/blob/main/docs/pack-spec.md) and [working example](https://github.com/appdev/anywhere-tool-chain-demo).
+1. Publish a public GitHub repository with a root `manifest.json`, its resources, a license and usage instructions. Test it in AnyWhere. See the [pack author guide](https://github.com/AnyWhereTools/AnyWhere/blob/main/docs/pack-spec.md) and [working example](https://github.com/AnyWhereTools/anywhere-tool-chain-demo).
 2. Fork this repository. Add `registry/<id>.json`, for example:
 
    ```json
    {
      "id": "appdev.tool-chain-demo",
-     "repository": "https://github.com/appdev/anywhere-tool-chain-demo"
+     "repository": "https://github.com/AnyWhereTools/anywhere-tool-chain-demo"
    }
    ```
 
@@ -33,7 +33,7 @@ Initial registration receives human review. Ordinary upstream commits are automa
 
 ## Catalog contract
 
-Client endpoint: [raw catalog.json](https://raw.githubusercontent.com/appdev/anywhere-bazaar/main/catalog.json).
+Client endpoint: [raw catalog.json](https://raw.githubusercontent.com/AnyWhereTools/anywhere-bazaar/main/catalog.json).
 
 ```json
 {

@@ -1,18 +1,18 @@
 # AnyWhere 扩展包集市
 
-[English](README.md) · [AnyWhere](https://github.com/appdev/AnyWhere) · [生成的目录](catalog.json)
+[English](README.md) · [AnyWhere](https://github.com/AnyWhereTools/AnyWhere) · [生成的目录](catalog.json)
 
 开发者在自己的公开 GitHub 仓库维护源码和 `manifest.json`，中央仓库每包保存一个 JSON 登记文件，自动生成静态目录。Finder 菜单、带面板的工具和工作流继续复用现有扩展包格式。
 
 ## 提交扩展包
 
-1. 发布公开 GitHub 仓库，根目录包含 `manifest.json`、引用的资源、许可证和使用说明，并在 AnyWhere 中验证导入和各入口。参考[扩展包开发文档](https://github.com/appdev/AnyWhere/blob/main/docs/pack-spec.zh.md)和[完整示例](https://github.com/appdev/anywhere-tool-chain-demo)。
+1. 发布公开 GitHub 仓库，根目录包含 `manifest.json`、引用的资源、许可证和使用说明，并在 AnyWhere 中验证导入和各入口。参考[扩展包开发文档](https://github.com/AnyWhereTools/AnyWhere/blob/main/docs/pack-spec.zh.md)和[完整示例](https://github.com/AnyWhereTools/anywhere-tool-chain-demo)。
 2. Fork 本仓库，新增 `registry/<id>.json`：
 
    ```json
    {
      "id": "appdev.tool-chain-demo",
-     "repository": "https://github.com/appdev/anywhere-tool-chain-demo"
+     "repository": "https://github.com/AnyWhereTools/anywhere-tool-chain-demo"
    }
    ```
 
@@ -33,7 +33,7 @@ ID 使用小写字母、数字及作为分隔符的点或短横线，最多 100 
 
 ## 目录接口
 
-客户端入口：[catalog.json](https://raw.githubusercontent.com/appdev/anywhere-bazaar/main/catalog.json)。结构示例：
+客户端入口：[catalog.json](https://raw.githubusercontent.com/AnyWhereTools/anywhere-bazaar/main/catalog.json)。结构示例：
 
 ```json
 {

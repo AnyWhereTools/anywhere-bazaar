@@ -3,8 +3,8 @@
   "packages": [
     {
       "id": "appdev.json-tools",
-      "repository": "https://github.com/appdev/anywhere-json-tools",
-      "revision": "bb3164e0a0825128049f49bf31e139c5d7154eea",
+      "repository": "https://github.com/AnyWhereTools/anywhere-json-tools",
+      "revision": "79511296759484ac804d6df3f3ffaaf88e8bdb5f",
       "name": "JSON 编辑器",
       "description": "完整编辑、无损格式化、节点树和大文件；保留大整数，自动保存草稿。需宿主支持 documents 能力。",
       "author": "AnyWhere",
@@ -16,8 +16,8 @@
     },
     {
       "id": "appdev.quicklinks",
-      "repository": "https://github.com/appdev/anywhere-quicklinks",
-      "revision": "2157ec4996a8f198ec57d350e5135c17620125d0",
+      "repository": "https://github.com/AnyWhereTools/anywhere-quicklinks",
+      "revision": "d1ceb9cb9592eac992b275e679296c7121b41848",
       "name": "网页快开",
       "description": "管理网址、分组和搜索模板；名称与别名直接进入 AnyWhere 主搜索。",
       "author": "AnyWhere",
@@ -29,8 +29,8 @@
     },
     {
       "id": "appdev.todo",
-      "repository": "https://github.com/appdev/anywhere-todo",
-      "revision": "29554fba2462d47dd351b96979c7e989b01bcaa1",
+      "repository": "https://github.com/AnyWhereTools/anywhere-todo",
+      "revision": "eda8224d7aed7ee73380d519f8e3fd89ad8b8571",
       "name": "待办 Todo",
       "description": "待办、备注、优先级与系统提醒；关闭面板后仍可收到已登记通知。",
       "author": "AnyWhere",
@@ -42,8 +42,8 @@
     },
     {
       "id": "appdev.tool-chain-demo",
-      "repository": "https://github.com/appdev/anywhere-tool-chain-demo",
-      "revision": "715e45947b923b400190de5b676ed7244db18824",
+      "repository": "https://github.com/AnyWhereTools/anywhere-tool-chain-demo",
+      "revision": "8c5d4cdd2e7986905eca1051e4c0e656ee088616",
       "name": "接口响应工具链",
       "description": "A 提取 JSON → B 选择数据节点 → C 生成 TypeScript；三个工具可独立使用，也可串联。",
       "author": "AnyWhere",
