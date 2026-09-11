@@ -30,7 +30,7 @@
     {
       "id": "appdev.todo",
       "repository": "https://github.com/AnyWhereTools/anywhere-todo",
-      "revision": "4a0518ba0123f4a60fab753403269a4548972739",
+      "revision": "e44534847fcc2f0ad38f248bc5f2c6b88d00dd75",
       "name": "待办 Todo",
       "description": "快速录入、清单分类、截止日期与系统提醒；用今天、未来 7 天和完成记录整理每一天。",
       "author": "AnyWhere",
